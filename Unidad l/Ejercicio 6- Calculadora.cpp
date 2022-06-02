@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
 	
 	
  //Entradas
-	int a=0, b=0, suma=0, resta=0, multip=0,div=0;
+	int a=0, b=0, suma=0, resta=0, multip=0,divi=0;
 	
 	
 	cout << "Introduzca el valor de a " ;
@@ -19,13 +19,13 @@ int main(int argc, char** argv) {
 	suma= a+b;
 	resta= a-b;
 	multip= a*b;
-	div= a/b;
+	divi= a/b;
 	
 	//Salida
 	cout<< "\nLa suma de a y b es: " << suma << endl;
 	cout<< "La resta de a y b es: " << resta << endl;
 	cout<< "La multiplicacion de a y b es: " << multip<< endl;
-	cout<< "La division de a y b es: " << div << endl;
+	cout<< "La division de a y b es: " << divi << endl;
 	
 	return 0;
 }
